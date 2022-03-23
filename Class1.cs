@@ -1,24 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProiectPiuLaborator
+namespace Persoana
 {
-     public class Persoana
+    public class Persoana
     {
-        
-        int Id;
-        string nume, prenume, Sex, data_n;
-       
+        private int Id;
+        private string nume, prenume, Sex, data_n;
+
         public Persoana()
-      {
-            nume=prenume=Sex= string.Empty;
-            Id = 0;
+        {
+            nume = prenume = Sex = string.Empty;
+          
         }
         public string retNume()
         { return nume; }
-     
     }
 }
